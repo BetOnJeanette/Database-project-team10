@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Team 10 Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
+</head>
+
+
+<div class="header">
+  <a href="./index.html">
+    <h3 class="ui left floated huge red header">
+        Team 10 Project
+    </h3>
+  </a>
+</div>
+
+<!--jquery should be above semantic because of dependencies-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+<script src="webpageFun.js"></script>
+<nav>
+  <!--whatever pages we want-->
+  <div class="ui attached stackable menu">
+      <!--how to make this fully left l-->
+      <div class="ui container">
+          <a class="item" href="./index.html">
+              <i class="home icon" id="homeButton"></i> Home
+          </a>
+          <a class="item" href="./aboutUs.html">
+              <i class="id card icon"></i> About Us
+          </a>
+      </div>
+  </div>
+
+</nav>
+
+<body>
+    <div class="ui container">
+        <h1 class="ui centered header">Project Page</h1>
+        <hr/>
+        <div class="ui vertical segment">
+            <h2 class="ui header">Current Status of the Project</h2>
+            <p>We have created a <a href="https://github.com/Jarred-C/Database-project-team10">GitHub repository</a> 
+            for our project, allowing us to synchronize our code as we build our project. There, we created a list 
+            of issues that represent what functionality needs to be implemented upon turning in the final project, 
+            which will allow us to divide the work between members with minimal hassle. </p>
+        </div>
+    </div>
+</body>
+</html>
